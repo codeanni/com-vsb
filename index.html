@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Vaccine Slot Booking</title>
+    <script src="userScript.js"></script>
+
+    <style type="text/css">
+        
+        .head_div{
+            background-image: linear-gradient(to right, yellow , blue);
+        }
+        .footer_div{
+            background-image: linear-gradient(to right, yellow , blue);
+
+        }
+        .lrgbtn{
+            
+            width:120px;
+            height: 30px;
+            border-radius: 20px;
+            color: black;
+            background-color: yellow;
+            cursor: pointer;
+
+        }
+        
+
+      
+ </style>
+
+<script language="javascript">
+    function goNext(){
+        window.location="admin.html";
+    }
+</script>
+</head>
+<body>
+    <center>
+        <div class="head_div">
+        <form name="f1" action="" method="post">
+            <table width="100%">
+                <tr height="70">
+                    <td align="center" valign="upper">
+                       <h2><font face="" color="white">Basic Vaccine Slot Booking</font></h2>
+                        </font>
+                    </td>
+                </tr>
+            </table>
+
+           </div>
+           <blockquote><h3>Registration From</h3></blockquote>
+            <table width="800" height1="350">
+                <tr>
+                    <td>Name:</td>
+                    <td><input type="text" name="txtname" id="name" required></td><br>
+                </tr>
+                <tr>
+                    <td>Email:</td>
+                    <td><input type="email" name="txtemail" id="email" required></td>
+                </tr>
+                <tr>
+                    <td>Age:</td>
+                    <td><input type="text" name="txtage" id="age" required></td>
+                </tr>
+            
+                <tr>
+                    <td>Phone:</td>
+                    <td><input type="text" name="txtphone" id="phone" required></td>
+                </tr>
+            
+                <tr>
+                    <td>Adhaar No:</td>
+                    <td><input type="text" name="txtadhar" id="adhaar" required></td>
+                </tr>
+
+                <tr>
+                    <td>Address:</td>
+                    <td><input type="text" name="txtaddress" id="address" required></td>
+                </tr>
+
+                <tr>
+                    <td>Date:</td>
+                    <td><input type="date" name="txtdate" id="date" required></td>
+                </tr>
+                </table>
+                <br><br><br>
+                
+   <input type="submit" name="btnSub" value="Submit" onclick="showData()" class="lrgbtn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+   <input type="button" name="btnNext" value="Next" onclick="goNext()" class="lrgbtn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+   <input type="reset" name="btnRes" value="Reset"class="lrgbtn"><br><br><br><br><br>
+
+</form>
+<br>
+<div class="footer_div">
+<table width="100%">
+    <tr height="70">
+        <td align="center" valign="middle">
+            <font size="4" color="white">
+                Thanks for Visit
+            </font>
+        </td>
+    </tr>
+</table>
+</div>
+</body>
+
+</html>
